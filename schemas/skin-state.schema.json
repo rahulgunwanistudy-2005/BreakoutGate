@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SkinState",
+  "type": "object",
+  "required": [
+    "version",
+    "signals",
+    "provenance"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "signals": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

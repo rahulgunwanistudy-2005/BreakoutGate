@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Judge
+    participant UI
+    participant Replay as Recorded YouCam Fixture
+    participant Engine as Decision Engine
+    participant VTO as Recorded VTO Artifact
+    Judge->>UI: Run Judge Mode
+    UI->>Replay: Load clearly labeled Skin Analysis replay
+    Replay-->>UI: Provider fixture
+    UI->>Engine: Normalize + compare 3 candidates
+    Engine-->>UI: Ranking + reason codes + receipt
+    Judge->>UI: See it on me
+    UI->>VTO: Load recorded real VTO artifact
+    VTO-->>UI: Before/after
+    Judge->>UI: Open Decision Receipt
+    UI-->>Judge: Sources + rules + unknowns + hash

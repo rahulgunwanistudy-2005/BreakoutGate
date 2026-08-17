@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "fixtureClass": "REAL_PROVIDER_RESPONSE_SANITIZED",
+    "provider": "Perfect Corp / YouCam AI Skin Analysis S2S v2.0",
+    "capturedAt": "2026-08-17T13:41:25Z",
+    "note": "Actual raw score_info.json output extracted from live Perfect Corp S2S zip result for demo face portrait. Sensitive credentials and AWS pre-signed URLs redacted."
+  },
+  "rawOutput": {
+    "skin_analysis": {
+      "texture": {
+        "raw_score": 71.0455,
+        "ui_score": 77,
+        "score": 77
+      },
+      "redness": {
+        "raw_score": 92.1776,
+        "ui_score": 88,
+        "score": 88
+      },
+      "oiliness": {
+        "raw_score": 52.829,
+        "ui_score": 69,
+        "score": 69
+      },
+      "acne": {
+        "raw_score": 93.9801,
+        "ui_score": 91,
+        "score": 91
+      }
+    },
+    "quality_score": 81.25,
+    "skin_age": 34,
+    "all": {
+      "score": 81.25
+    }
+  }
+}

@@ -1,0 +1,17 @@
+flowchart TD
+    A[SkinState + User Constraints + Product Evidence] --> B[Evidence Validation]
+    B --> C{Critical evidence missing?}
+    C -->|Yes| U[Unknown / confidence penalty]
+    C -->|No| D[Hard Constraint Engine]
+    U --> D
+    D --> E{Conflict?}
+    E -->|Yes| X[Ineligible]
+    E -->|No| F[Soft Preference Scoring]
+    F --> G[Evidence Completeness Weight]
+    G --> H[Rank Candidates]
+    H --> I{Sufficient evidence and margin?}
+    I -->|No| J[Abstain / low confidence]
+    I -->|Yes| K[Winner + Reason Codes]
+    K --> R[Decision Receipt]
+    X --> R
+    J --> R

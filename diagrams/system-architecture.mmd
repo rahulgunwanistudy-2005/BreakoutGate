@@ -1,0 +1,19 @@
+flowchart LR
+    U[User] --> UI[BreakoutGate Web UI]
+    UI --> API[Server API]
+    API --> IMG[Image Validation]
+    IMG --> YC1[YouCam Skin Analysis Adapter]
+    YC1 --> SS[Normalized SkinState]
+    UI --> UC[User Constraints]
+    UI --> PE[Candidate Products]
+    PE --> EV[Evidence + Provenance Layer]
+    SS --> DE[Deterministic Decision Engine]
+    UC --> DE
+    EV --> DE
+    DE --> DR[Decision Receipt]
+    DE --> VTOG{Eligible + Previewable?}
+    VTOG -->|Yes| YC2[YouCam Makeup VTO Adapter]
+    YC2 --> ART[VTO Artifact]
+    ART --> DR
+    DR --> UI
+    VTOG -->|No| UI

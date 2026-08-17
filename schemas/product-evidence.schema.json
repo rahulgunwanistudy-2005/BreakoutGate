@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProductEvidence",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "evidenceCompleteness",
+    "fields"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "evidenceCompleteness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "fields": {
+      "type": "object"
+    }
+  }
+}

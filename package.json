@@ -1,0 +1,42 @@
+{
+  "name": "breakoutgate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke:provider": "tsx scripts/youcam/smoke-provider.ts",
+    "smoke:upload": "tsx scripts/youcam/smoke-upload.ts",
+    "smoke:skin": "tsx scripts/youcam/smoke-skin-analysis.ts",
+    "smoke:vto": "tsx scripts/youcam/smoke-makeup-vto.ts"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.185.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/three": "^0.185.4",
+    "eslint": "^10.8.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

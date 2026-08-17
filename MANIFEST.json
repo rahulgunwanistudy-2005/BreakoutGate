@@ -1,0 +1,122 @@
+{
+  "00_EXECUTIVE_WIN_STRATEGY.md": {
+    "sha256": "533731ec91e1ed8747e2c43a54375171dd0554b482e30671ff6f6b98c82a0eef",
+    "bytes": 6202
+  },
+  "01_HACKATHON_GROUND_TRUTH.md": {
+    "sha256": "7a5e6f7bb0b7b462c1db7ac189a7268ac11c0adc89f52a3890f0a2c533cdcb07",
+    "bytes": 4513
+  },
+  "02_PRODUCT_PRD.md": {
+    "sha256": "27abeb7bed569b5ae06e9960105bd3cc124919c82230a490a1755be8f0626c67",
+    "bytes": 5099
+  },
+  "03_COMPETITIVE_AND_WINNER_ANALYSIS.md": {
+    "sha256": "5e71dd996a8a1b17ba2242582e8deba200f2a4ade75c9daf1a88a57d7d1d13b4",
+    "bytes": 3221
+  },
+  "04_SYSTEM_ARCHITECTURE.md": {
+    "sha256": "6fac086327654b5ba7785dd9734a4bc6c6a17a8d6ebff765bfd852a920d3e252",
+    "bytes": 3666
+  },
+  "05_DECISION_ENGINE_SPEC.md": {
+    "sha256": "4b77c978a93789a9355949928077adcaccb952c1f12397999d87fe2e276fb6a4",
+    "bytes": 4396
+  },
+  "06_EVIDENCE_AND_DATA_MODEL.md": {
+    "sha256": "76aba16ab128505fd29c9e190457436ce64747ea5ff3f1d49ee4e5b183dcb00c",
+    "bytes": 2810
+  },
+  "07_UX_AND_VISUAL_SYSTEM.md": {
+    "sha256": "cdd9cda754c4f3dc3b82043c8a9272ac291f3fba47105e65eba4bda796aa49c5",
+    "bytes": 2911
+  },
+  "08_IMPLEMENTATION_PHASES.md": {
+    "sha256": "7e5ed65ca9a184765adf6762364fb312e31c0c3bbe6f3b302e797c2dd33d764f",
+    "bytes": 3533
+  },
+  "09_AGENT_ORCHESTRATION.md": {
+    "sha256": "7552bc34ca93f15cb50f40a075834e76541115a07417fc86d8bb87bc930d9441",
+    "bytes": 2311
+  },
+  "10_TEST_SECURITY_AUDIT.md": {
+    "sha256": "affd574467a8a8e1531a87c0eecf64da75c8a1fb466428b6c8e6d36ae3d4aa5c",
+    "bytes": 2684
+  },
+  "11_JUDGE_MODE_AND_DEMO.md": {
+    "sha256": "ca40b50bbec3ab6b791dfc535295968e84ac3b3acd7adb6f94e95846410b4bd4",
+    "bytes": 2637
+  },
+  "12_SUBMISSION_PLAYBOOK.md": {
+    "sha256": "2bcfca7afed47aff31495c18f500583eff90c158e8aa7694e4e28fba9b4a4bf7",
+    "bytes": 2353
+  },
+  "13_RISK_REGISTER.md": {
+    "sha256": "8e77432352b89bd558fc8dac7337f8936b310679b9246373b3801c8e1d048ab2",
+    "bytes": 1644
+  },
+  "14_REVIEWER_BENCHMARK.md": {
+    "sha256": "494ca12e9678fb149ff263867ec812cd3031c5b0e28f4c22a1e03b516864bb76",
+    "bytes": 2765
+  },
+  "15_REFERENCE_SOURCES.md": {
+    "sha256": "9458bfb0cc41b56d30641209d8696d3a2da3c9d2d3cdb0c3ca4c3c331935c555",
+    "bytes": 1823
+  },
+  "README_FIRST.md": {
+    "sha256": "bff6968dd68b667434c10d566fa9a66a4f097f9ed86ffabb11df62df41dd821c",
+    "bytes": 4251
+  },
+  "agent_prompts/CLAUDE_PROVIDER_ENGINEER.md": {
+    "sha256": "d897db6e6c6bedb1f135bbf2cc36d10f53d8570854d4e4809f4e21a249946508",
+    "bytes": 1156
+  },
+  "agent_prompts/GROK_DECISION_ENGINEER.md": {
+    "sha256": "ed3ab01749b72202cc1b61c83f0eef5935c7e4c185533bf48e19d1551bb51b67",
+    "bytes": 884
+  },
+  "agent_prompts/JUDGE_REVIEWER.md": {
+    "sha256": "9712d946a6e19f9a0a063c574440a2bc49c96613fd79173082f60e134c9ac837",
+    "bytes": 746
+  },
+  "agent_prompts/KIMI_FRONTEND_PRODUCT.md": {
+    "sha256": "56e819c910bf57a5557a43a86d85a2a47d983d88841d65d855fb0b4cd9d898dc",
+    "bytes": 835
+  },
+  "agent_prompts/MASTER_BUILD_AGENT.md": {
+    "sha256": "f519565ecd5183bec14447fd096138866af07b465147a2113b8fa9285a54bba2",
+    "bytes": 808
+  },
+  "agent_prompts/SECURITY_AUDITOR.md": {
+    "sha256": "242cac2503ebad91edd1f7de4d07416d5a9082b2c161749c6fdf7af7a52876f6",
+    "bytes": 635
+  },
+  "checklists/PRE_SUBMISSION_CHECKLIST.md": {
+    "sha256": "c74468d1e878710febf0a82c8967eff25a3d32bbf1ae6b074964b98166fa84ca",
+    "bytes": 1169
+  },
+  "diagrams/decision-engine.mmd": {
+    "sha256": "01b2fd4a7d65a8341dd73311b70e4288b66bf85cc97c4d17fe86c04c8c654fdc",
+    "bytes": 579
+  },
+  "diagrams/judge-mode.mmd": {
+    "sha256": "9c2d44e6295dfbd29cfd672850185baf12710884e1c0e182edf8737c0877db1e",
+    "bytes": 612
+  },
+  "diagrams/system-architecture.mmd": {
+    "sha256": "8ee259e1c161f229bd902caca8df76ad48c0a6dcf9a92a3fc533f84aa3eca5a4",
+    "bytes": 580
+  },
+  "schemas/decision-receipt.schema.json": {
+    "sha256": "17918ce583ff700922005b36b4256b536c32114eeac888599fb328c3cae1bcd8",
+    "bytes": 602
+  },
+  "schemas/product-evidence.schema.json": {
+    "sha256": "f6580140c218de453dbcbf672963d10c7f6d12bebec189818730d422897c1ffc",
+    "bytes": 452
+  },
+  "schemas/skin-state.schema.json": {
+    "sha256": "5fa8fe1c0440ae5e12585cd59f0cedc839022718956bd37c9f947d8684e17512",
+    "bytes": 342
+  }
+}
