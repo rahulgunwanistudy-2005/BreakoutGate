@@ -39,7 +39,7 @@ export function loadYouCamConfig(overrides?: OptionalYouCamConfig): YouCamConfig
 
   const rawConfig = {
     apiKey: overrides?.apiKey ?? process.env.YOUCAM_API_KEY ?? "",
-    baseUrl: overrides?.baseUrl ?? process.env.YOUCAM_BASE_URL ?? "https://api.perfectcorp.com",
+    baseUrl: overrides?.baseUrl ?? process.env.YOUCAM_BASE_URL,
     pollIntervalMs: overrides?.pollIntervalMs ?? process.env.YOUCAM_POLL_INTERVAL_MS ?? 1500,
     pollTimeoutMs: overrides?.pollTimeoutMs ?? process.env.YOUCAM_POLL_TIMEOUT_MS ?? 30000,
     maxRetries: overrides?.maxRetries ?? process.env.YOUCAM_MAX_RETRIES ?? 3,
