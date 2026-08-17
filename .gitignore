@@ -32,3 +32,10 @@ coverage/
 *.tmp
 tmp/
 *.tsbuildinfo
+
+# Ignore all internal documentation / planning markdown files (keep only README.md)
+*.md
+!README.md
+agent_prompts/
+checklists/
+docs/
